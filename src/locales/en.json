@@ -1,0 +1,103 @@
+{
+  "hello": "Hello",
+  "powerd_by":"powerd by",
+  "error_getting_data" : "some unknown error happened please refresh the page or call customer support",
+  "cashtray_desc":"This report enables you to view Shifts details of a specific year...",
+  "driver_totals_desc": "This report gives you an overview about your driver's totals and performance.",
+  "select_data" : "please provide required fields to view the report",
+  "Show_Totals" : "View Totals",
+  "Acc_Stat": "Account Statement",
+  "over" : "over",
+  "under" : "under",
+  "enter_current_cash" : "enter current cash",
+  "Acc_Stat_desc": "This report outputs an account statement for all account types.",
+  "sidebar" : {
+    "products" : "Products",
+    "pos" : "Point of sales",
+    "accounts" : "Accounts",
+    "paused_cashtray" : "Paused Shifts",
+    "reports":"reports",
+    "transactions":"transactions",
+    "items" : "items",
+    "open_cashtray" : "Active shifts",
+    "drivertotals" : "Driver's Totals",
+    "cashflow" : "Cashflow",
+    "account_balance" : "Accounts statements",
+    "balance_of_trade" : "Trade balance",
+    "suppliers_balance" : "Supplier's statement",
+    "top_sales" : "Top selling items",
+    "stock" : "Items balances",
+    "safe" : "safe",
+    "trans_cycle" : "transaction cycle",
+    "driver_totals":"Driver totals",
+    "cashtray" : "Shifts by month"
+  }
+  
+  ,
+  "MonthNo" : "Month",
+  "TotalOrder" : "Orders count",
+  "NoOfCashTry" : "Shifts count",
+  "TotalCash" : "Total Cash",
+  "TVisa" : "Credit card totals",
+  "TVoid" : "Returned total",
+  "AverageCash" : "Cash average",
+  "AvgBasket" : "Basket average"
+  ,
+
+"EmpCode" : "Employee number",
+"StoreName" : "Store",
+"OpenDate" : "Started at",
+"CompouterName" : "POS name",
+"StartCash" : "Inital change",
+"TotalVisa" : "Credit card total",
+"totals" : "Totals"
+,
+"from_date":"From date",
+"to_date":"To",
+"drivers":"Driver's name",
+"EmpName":"Employee's Name",
+"ROrders":"Returned orders count",
+"RAmount":"Returned orders Value",
+"Amount":"Value"
+,
+"Safe": "Safe",
+"DocDate":"Created at",
+"Supplier_Balance":"Supplier's balance",
+"Income":"Income",
+"Expensis":"Expenses",
+"Others":"Other",
+"Bankin":"Bank Cashin",
+"Cheqin":"Received Cheques",
+"Cheqout":"Issued Cheques"
+,
+"DocNo":"Document",
+"Dbt":"Debit",
+"Crdt":"Credit",
+"RaseedCrdt":"Credit Balance",
+"RaseedDbt":"Debit Balance",
+"account_type":"Account type",
+"account" : "Account"
+,
+
+"AccountCode":"Account Code",
+"AccountName":"Name",
+"ReturnBuy": "Retuned purchases",
+"Buy":"Purchases",
+"Paid":"Payment",
+"CHEQUE":"Cheques",
+"CHQUnderCollec":"Processing cheques"
+,
+"ItemName":"Item Name",
+"TotalQnt": "Total Quantity",
+"TotalAmount": "Total Value",
+"Profit":"Profit",
+"Disc":"Discount Value"
+,
+"ItemCode":"Item Code",
+"Raseed" : "Balance"
+
+
+
+
+
+}

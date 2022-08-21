@@ -1,0 +1,15 @@
+.v-application--is-ltr .v-list-item {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.v-application--is-ltr .v-list-item::before {
+  border-radius: 0 10px 10px 0;
+}
+
+.v-application--is-ltr .mr-2 {
+  margin-right: 0 !important;
+  margin-left: 4px !important;
+}
+/*# sourceMappingURL=ltr.css.map */

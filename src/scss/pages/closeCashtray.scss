@@ -1,0 +1,51 @@
+.v-application--is-ltr .list{
+    padding: 0 30px 0 0;
+
+    & li{
+        border-radius:0 15px 15px 0;
+    }
+}
+
+.list{
+    padding: 0  0 0 30px;
+    & li{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+        padding: 20px;
+        border-radius:15px 0 0  15px;
+        color:var(--white);
+        transition: all .3s ease-in-out;
+        @media(max-width:600px){
+            font-size: 18px;
+        }
+        &:last-child{
+            background: var(--main-gredient);
+            color:#fff;
+        }
+        &:hover{
+            background: var(--main-gredient);
+            color:#fff;
+        
+        }
+    }
+}
+
+.plus{
+    padding: 32px 0;
+    & .v-card__title.danger{
+        background: var(--danger-gradient);
+    }
+    & .v-card__title.success{
+        background: var(--success-gradient);
+    }
+    & .v-card__text{
+        padding: 48px 16px;
+
+        & h2{
+            font-size: 34px;
+            color: var(--primary);
+        }
+    }
+}
