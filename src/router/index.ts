@@ -59,6 +59,11 @@ const routes: Array<RouteConfig> = [
         name: "suppliers-balance",
         component: () => import('../views/reports/accounts/suppliersBalance.vue'),
       },
+      {
+        path: "/monthly-report",
+        name: "monthly-report",
+        component: () => import('../views/reports/accounts/monthlyReport.vue'),
+      },
 
       // items routes
       {

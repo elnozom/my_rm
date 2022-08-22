@@ -48,6 +48,11 @@ export default [
             title: "sidebar.suppliers_balance",
             to: `/suppliers-balance`,
           },
+          {
+            icon: "mdi-account-cowboy-hat-outline",
+            title: "sidebar.monthly_report",
+            to: `/monthly-report`,
+          },
         ]
       },
       {

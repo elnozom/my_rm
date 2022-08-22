@@ -43,7 +43,7 @@ export const currentYear = new Date().getFullYear();
 
 export const currentMonth = new Date().getMonth() + 1
 
-export const currentDay = new Date().getDay()
+export const currentDay = new Date().getDate()
 
 export const currentDate = `${currentYear}-${currentMonth}-${currentDay}`;
 
