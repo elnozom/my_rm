@@ -146,5 +146,7 @@
 "initialExchangeAmount" : "فكة اول اليوم",
 "endExchangeAmount" : "فكة اخر اليوم",
 "under" : "عجز",
-"cash_flow":"تقرير التدفقات النقدية"
+"cash_flow":"تقرير التدفقات النقدية",
+"AccNote": "الملاحظات",
+"Account2": "الحساب المقابل"
 }

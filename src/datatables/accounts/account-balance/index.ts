@@ -10,7 +10,7 @@ const headers:Header[] = [
   {value:'Dbt', text: i18n.t('Dbt').toString() , isPrice : true , isTotal:true , total:0},
   {value:'Crdt', text: i18n.t('Crdt').toString() , isPrice : true , isTotal:true , total:0},
   {value:'RaseedCrdt', text: i18n.t('RaseedCrdt').toString() , isPrice : true , isTotal:true , total:0},
-  {value:'RaseedDbt', text: i18n.t('RaseedDbt').toString() , isPrice : true , isTotal:true , total:0}
+  {value:'RaseedDbt', text: i18n.t('RaseedDbt').toString() , isPrice : true , isTotal:true , total:0},
 ]
 
 const url = "get-account-balance"
