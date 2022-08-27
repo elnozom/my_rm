@@ -6,7 +6,7 @@ import i18n from '@/i18n';
 const headers:Header[] = [
   {value:'AccountCode', text: i18n.t('AccountCode').toString() , isPrice : false , isTotal:false , total:0},
   {value:'AccountName', text: i18n.t('AccountName').toString() , isPrice : false , isTotal:false , total:0},
-  {value:'AccNo', text: i18n.t('AccNo').toString() , isPrice : false , isTotal:false , total:0},
+  // {value:'AccNo', text: i18n.t('AccNo').toString() , isPrice : false , isTotal:false , total:0},
   {value:'BBC', text: i18n.t('BBC').toString() , isPrice : true , isTotal:true , total:0},
   {value:'BBD', text: i18n.t('BBD').toString() , isPrice : true , isTotal:true , total:0},
   {value:'BAC', text: i18n.t('BAC').toString() , isPrice : true , isTotal:true , total:0},

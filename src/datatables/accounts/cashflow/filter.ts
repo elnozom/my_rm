@@ -11,7 +11,7 @@ safes.url += '?type=5'
 const inputs:Input[] = [
     new Input(convertToRequred(fromDate)),
     new Input(convertToRequred(toDate)),
-    new Input(safes)
+    new Input(convertToRequred(safes))
 ]
 
 const submit:Function = () => {

@@ -7,10 +7,12 @@ const headers:Header[] = [
   {value:'DocNo', text: i18n.t('DocNo').toString() , isPrice : false , isTotal:false , total:0},
   {value:'DocDate', text: i18n.t('DocDate').toString() , isPrice : false , isTotal:false , total:0},
   {value:'AccMoveName', text: i18n.t('AccMoveName').toString() , isPrice : false , isTotal:false , total:0},
+  {value:'Note', text: i18n.t('Notes').toString() , isPrice : false , isTotal:false , total:0},
+  {value:'Account2', text: i18n.t('Account2').toString() , isPrice : false , isTotal:false , total:0},
   {value:'Dbt', text: i18n.t('Dbt').toString() , isPrice : true , isTotal:true , total:0},
   {value:'Crdt', text: i18n.t('Crdt').toString() , isPrice : true , isTotal:true , total:0},
-  {value:'RaseedCrdt', text: i18n.t('RaseedCrdt').toString() , isPrice : true , isTotal:true , total:0},
-  {value:'RaseedDbt', text: i18n.t('RaseedDbt').toString() , isPrice : true , isTotal:true , total:0},
+  {value:'RaseedCrdt', text: i18n.t('RaseedCrdt').toString() , isPrice : true , isTotal:false , total:0},
+  {value:'RaseedDbt', text: i18n.t('RaseedDbt').toString() , isPrice : true , isTotal:false , total:0},
 ]
 
 const url = "get-account-balance"

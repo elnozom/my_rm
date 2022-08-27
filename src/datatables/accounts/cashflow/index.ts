@@ -5,13 +5,15 @@ import filters from './filter';
 import i18n from '@/i18n';
 const headers:Header[] = [
   {value:'DocDate', text:i18n.t('DocDate').toString() , isPrice : false , isTotal:false , total:0},
-  {value:'Supplier', text:i18n.t('supplier').toString() , isPrice : false , isTotal:false , total:0},
-  {value:'Income', text:i18n.t('Income').toString() , isPrice : true , isTotal:true , total:0},
-  {value:'Expensis', text:i18n.t('Expensis').toString() , isPrice : true , isTotal:true , total:0},
-  {value:'Others', text:i18n.t('Others').toString() , isPrice : true , isTotal:true , total:0},
-  {value:'Bankin', text:i18n.t('Bankin').toString() , isPrice : true , isTotal:true , total:0},
-  {value:'Cheqin', text:i18n.t('Cheqin').toString() , isPrice : true , isTotal:true , total:0},
-  {value:'Cheqout', text:i18n.t('Cheqout').toString() , isPrice : true , isTotal:true , total:0},
+  {value:'Customer', text:i18n.t('Customer').toString() , isPrice : true , isTotal:true , total:0},
+  {value:'OtherIn', text:i18n.t('OtherIn').toString() , isPrice : true , isTotal:true , total:0},
+  {value:'FromBank', text:i18n.t('FromBank').toString() , isPrice : true , isTotal:true , total:0},
+  {value:'Supplier', text:i18n.t('Supplier').toString() , isPrice : true , isTotal:true , total:0},
+  {value:'Expenses', text:i18n.t('Expenses').toString() , isPrice : true , isTotal:true , total:0},
+  {value:'OtherOut', text:i18n.t('OtherOut').toString() , isPrice : true , isTotal:true , total:0},
+  {value:'ToBank', text:i18n.t('ToBank').toString() , isPrice : true , isTotal:true , total:0},
+  {value:'TotalDebit', text:i18n.t('TotalDebit').toString() , isPrice : true , isTotal:true , total:0},
+  {value:'TotalCredit', text:i18n.t('TotalCredit').toString() , isPrice : true , isTotal:true , total:0},
 ]
 const url = "cash-flow"
 const params:DatatableIntetrface = {

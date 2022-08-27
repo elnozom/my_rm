@@ -1,3 +1,4 @@
+import i18n  from '@/i18n';
 import colors from './colors'
 
 export const switchLanguage = (locale: string, ctx: any) => {
@@ -50,27 +51,27 @@ export const currentDate = `${currentYear}-${currentMonth}-${currentDay}`;
 
 export const accountTypes = [
   {
-    key: 'customer',
+    key: i18n.t('customer'),
     value: 1
   },
   {
-    key: 'supplier',
+    key: i18n.t('supplier'),
     value: 2
   },
   {
-    key: 'expenses',
+    key: i18n.t('expenses'),
     value: 3
   },
   {
-    key: 'bank',
+    key: i18n.t('bank'),
     value: 4
   },
   {
-    key: 'safe',
+    key: i18n.t('safe'),
     value: 5
   },
   {
-    key: 'other',
+    key:  i18n.t('other'),
     value: 6
   }
 ]
