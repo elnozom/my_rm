@@ -19,19 +19,29 @@
             height="400px"
             >
             <template v-slot:top >
-               <app-form :form="table.filters" @change="filter" v-if="table.hasFilters"/>
-               <div class="pa-4">
-                <v-btn v-if="!table.error && table.hasFooter && (!table.hasFilters || table.filters.valid)" color="primary" class="w-full my-4" @click.prevent="showTotals">{{$t('show_totals')}}</v-btn>
-               </div>
-               <v-container v-if="table.searchable">
-                 <v-text-field
-                  v-model="table.search"
-                  prepend-icon="mdi-magnify"
-                  :label="$t('search')"
-                  single-line
-                  hide-details
-                ></v-text-field>
-               </v-container>
+              <v-expansion-panels>
+                <v-expansion-panel>
+                  <v-expansion-panel-header>
+                    {{$t('filters')}}
+                  </v-expansion-panel-header>
+                  <v-expansion-panel-content>
+                    <app-form :form="table.filters" @change="filter" v-if="table.hasFilters"/>
+                    <div class="pa-4">
+                      <v-btn v-if="!table.error && table.hasFooter && (!table.hasFilters || table.filters.valid)" color="primary" class="w-full my-4" @click.prevent="showTotals">{{$t('show_totals')}}</v-btn>
+                    </div>
+                    <v-container v-if="table.searchable">
+                      <v-text-field
+                        v-model="table.search"
+                        prepend-icon="mdi-magnify"
+                        :label="$t('search')"
+                        single-line
+                        hide-details
+                      ></v-text-field>
+                    </v-container>
+                    
+                  </v-expansion-panel-content>
+                </v-expansion-panel>
+              </v-expansion-panels>
             </template>
             <template v-slot:body v-if="table.error">
               <tr class="text-center py-4">
