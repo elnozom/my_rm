@@ -63,6 +63,11 @@ export default class Datatable{
                 
                 // convert response to be able to work without errors from typescript
                 const data =  res as unknown as any[]
+                
+
+                // reset header totals
+                this.headers.forEach(header => header.total = 0)
+
 
                 // check if datatable has footer which is flag to indicate that data needs to be mapped
                 // which means also one or more of header is price or has total

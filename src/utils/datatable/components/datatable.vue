@@ -5,7 +5,7 @@
         <v-row>
           <v-col cols="12">
             <h2 class="primary-text mb-4">{{$t(table.title)}}</h2>
-            <p class="">{{$t(table.description)}}</p>
+            <!-- <p class="">{{$t(table.description)}}</p> -->
           </v-col>
           <v-col cols="12">
           <v-data-table
@@ -62,6 +62,10 @@
             </template>
             <template v-slot:[`item.actions`]="{ item }">
               <slot v-bind:item="item" name="actions"> </slot>
+            </template>
+             <template v-slot:[`item.DocDate`]="{ item }">
+              <td>{{ new (Date.parse(item.DocDate)).toDateString()}}</td>
+
             </template>
           </v-data-table>
           </v-col>
