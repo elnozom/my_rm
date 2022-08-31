@@ -74,7 +74,7 @@
               <slot v-bind:item="item" name="actions"> </slot>
             </template>
              <template v-slot:[`item.DocDate`]="{ item }">
-              <td>{{ new (Date.parse(item.DocDate)).toDateString()}}</td>
+              <td>{{ parseDate(item.DocDate) }}</td>
 
             </template>
           </v-data-table>
@@ -124,7 +124,7 @@
 <script lang="ts">
 import Datatable from "@/utils/datatable/datatable";
 import { Header } from "@/utils/datatable/datatableInterface";
-import { currency } from "@/utils/helpers";
+import { currency , parseDate} from "@/utils/helpers";
 import AppForm from '@/utils/form/components/Form.vue'
 
 import Vue from "vue";
@@ -149,6 +149,7 @@ export default Vue.extend({
     }
   },
   methods: {
+    parseDate,
     currency: (x: number) => currency(x),
     filter(val:any){
       // reset headers totals to avoid sum bug

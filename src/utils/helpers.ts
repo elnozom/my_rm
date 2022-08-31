@@ -31,6 +31,12 @@ export const currency = (x:number):string => {
 }
 
 
+export const parseDate = (d:string):string => {
+  d = d.replace('T' , ' ').replace('Z' , ' ')
+  return d
+}
+
+
 export const undef = (v:any) => typeof v == 'undefined'
 export const clearNullValues = (obj:Object) => {
   let clone = { ...obj }
