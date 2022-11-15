@@ -29,7 +29,6 @@
 }
 
 .transition {
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
@@ -69,5 +68,4 @@ tr.bg-gredient:hover {
 .app-error {
   background: var(--danger-gradient);
   padding: 10px;
-}
-/*# sourceMappingURL=utilities.css.map */
+}/*# sourceMappingURL=utilities.css.map */

@@ -1,42 +1,32 @@
 .v-application--is-ltr .list {
   padding: 0 30px 0 0;
 }
-
 .v-application--is-ltr .list li {
   border-radius: 0 15px 15px 0;
 }
 
 .list {
-  padding: 0  0 0 30px;
+  padding: 0 0 0 30px;
 }
-
 .list li {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   font-size: 24px;
   padding: 20px;
-  border-radius: 15px 0 0  15px;
+  border-radius: 15px 0 0 15px;
   color: var(--white);
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-
 @media (max-width: 600px) {
   .list li {
     font-size: 18px;
   }
 }
-
 .list li:last-child {
   background: var(--main-gredient);
   color: #fff;
 }
-
 .list li:hover {
   background: var(--main-gredient);
   color: #fff;
@@ -45,21 +35,16 @@
 .plus {
   padding: 32px 0;
 }
-
 .plus .v-card__title.danger {
   background: var(--danger-gradient);
 }
-
 .plus .v-card__title.success {
   background: var(--success-gradient);
 }
-
 .plus .v-card__text {
   padding: 48px 16px;
 }
-
 .plus .v-card__text h2 {
   font-size: 34px;
   color: var(--primary);
-}
-/*# sourceMappingURL=closeCashtray.css.map */
+}/*# sourceMappingURL=closeCashtray.css.map */

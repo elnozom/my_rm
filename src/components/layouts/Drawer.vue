@@ -67,6 +67,47 @@
           </v-list-item>
           </v-list-group>
         </v-list-group>
+        <!-- ///// -->
+        <v-list-group
+          exact
+          prepend-icon="mdi-cog-outline"
+        >
+          <template v-slot:activator>
+            <v-list-item-title v-text="$t('sidebar.settings')"></v-list-item-title>
+          </template>
+          
+          <v-list-item
+            to="/settings"
+            sub-group
+            router
+            exact
+            class="sub"
+          >
+            <v-list-item-action>
+              <v-icon>mdi-store-outline</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title v-text="$t('store_settings')" />
+            </v-list-item-content>
+          </v-list-item>
+          <v-list-item
+            to="/items/edit"
+            sub-group
+            router
+            exact
+            class="sub"
+          >
+            <v-list-item-action>
+              <v-icon>mdi-database-edit-outline</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title v-text="$t('edit_items')" />
+            </v-list-item-content>
+          </v-list-item>
+         
+        </v-list-group>
+        <!-- ///// -->
+       
       </v-list>
     </v-navigation-drawer>
     <v-app-bar

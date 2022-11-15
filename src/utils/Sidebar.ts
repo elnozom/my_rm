@@ -75,6 +75,11 @@ export default [
             title: "sidebar.trans_cycle",
             to: `/trans-cycle`,
           },
+          {
+            icon: "mdi-tray-full",
+            title: "sidebar.edit_items",
+            to: `/items/edit`,
+          },
         ]
       },
     ]
@@ -107,5 +112,7 @@ export default [
         ]
       },
     ]
-  }
+  },
+  
+  
 ];

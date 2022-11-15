@@ -37,6 +37,11 @@ export const parseDate = (d:string):string => {
 }
 
 
+export const removeBasePathFromImage = (fullPath : string) :string => {
+  const path = `assets${fullPath.split('assets')[1]}`
+  return path
+
+}
 export const undef = (v:any) => typeof v == 'undefined'
 export const clearNullValues = (obj:Object) => {
   let clone = { ...obj }
@@ -119,7 +124,7 @@ export const getColor = (index:number) => {
 
 // export const createChart()
 
-export const required = (v:any) => !!v || 'required'
+export const required = (v:any) => !!v || i18n.t('required')
 
 
 export const miniChartOptions = {

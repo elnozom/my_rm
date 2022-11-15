@@ -81,6 +81,11 @@ const routes: Array<RouteConfig> = [
         name: "trans-cycle",
         component: () => import('../views/reports/items/transCycle.vue'),
       },
+      {
+        path: "/items/edit",
+        name: "items-edit",
+        component: () => import('../views/items/edit.vue'),
+      },
 
       // transactions routes
       //safe
@@ -100,6 +105,14 @@ const routes: Array<RouteConfig> = [
         path: "/cashtray/close/:serial/:amount",
         name: "close-cashtray",
         component: () => import('../views/transactions/pos/cashtray/close.vue'),
+      },
+
+
+      //settings
+      {
+        path: "/settings",
+        name: "settings",
+        component: () => import('../views/Settings.vue'),
       },
     ]
   },

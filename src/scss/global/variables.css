@@ -1,7 +1,7 @@
 :root {
   --primary: #1e90ff;
-  --bg: #161717;
-  --bgdarker: #000;
+  --bg:#161717;
+  --bgdarker:#000;
   --secondary: #424242;
   --accent: #FF4081;
   --error: #FF5252;
@@ -11,21 +11,20 @@
   --danger-gradient: linear-gradient(45deg, #FF4081, #bb0f49);
   --success: #4CAF50;
   --warning: #FB8C00;
-  --text-color: #fff;
-  --bg-1: #28968c;
-  --bg-1-lighter: #28968c;
-  --bg-3: #d44b71;
-  --white: #fff;
-  --bg-2: #a03f3e;
-  --bg-3-lighter: #e9a5b8;
-  --bg-4: #268bd2;
+  --text-color:#fff;
+  --bg-1:#28968c;
+  --bg-1-lighter:#28968c;
+  --bg-3:#d44b71;
+  --white:#fff;
+  --bg-2:#a03f3e;
+  --bg-3-lighter:#e9a5b8;
+  --bg-4:#268bd2;
   --transition: all .3s ease-in;
 }
 
 .theme--light {
-  --text-color: #000;
-  --bg: #fff;
-  --white: #000;
-  --bgdarker: #eee;
-}
-/*# sourceMappingURL=variables.css.map */
+  --text-color:#000;
+  --bg:#fff;
+  --white:#000;
+  --bgdarker:#eee;
+}/*# sourceMappingURL=variables.css.map */
