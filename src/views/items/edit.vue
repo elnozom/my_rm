@@ -136,8 +136,8 @@ export default {
       })
       
     },
-    upload(){
-      if(this.file == null) return
+    upload(value){
+      if(file == null) return
       this.imageLoading = true
        let formData = new FormData();
         formData.append("file", this.file);

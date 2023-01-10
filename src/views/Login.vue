@@ -33,7 +33,7 @@
                     ></v-text-field>
                     
                 </v-col>
-                <v-col cols="12">
+                <!-- <v-col cols="12">
                     <v-select
                     ref="store"
                     item-text="name"
@@ -45,7 +45,7 @@
                     outlined
                     ></v-select>
                     
-                </v-col>
+                </v-col> -->
                 <v-col cols="12" class="text-center">
                     <v-btn :disabled="!valid" :loading="loading" @click.prevent="login" class="app-btn">{{$t('login')}}</v-btn>
                 </v-col>
